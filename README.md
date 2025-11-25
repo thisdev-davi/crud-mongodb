@@ -36,10 +36,8 @@ Para isolar as dependências do projeto:
 <br>
 
 ## Configuração da Conexão com o Banco 🐳
-Para executar o projeto, é necessário que o Oracle Database esteja rodando.
-Você pode usar uma instalação local ou, de forma mais prática, utilizar o Docker.
+Para executar o projeto, utilizaremos o MongoDB rodando em um container Docker. Isso evita a necessidade de instalações complexas no sistema operacional
 
-> Caso não possua o Oracle instalado, utilize o container oficial Oracle XE
 <br>
 
 1. Baixe a imagem oficial do MongoDB:
