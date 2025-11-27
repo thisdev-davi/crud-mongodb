@@ -113,7 +113,7 @@ class ControllerProduto:
     def buscar_produto(self):
         self.mongo.connect()
         
-        if not self.mongo.db["produtos"].find_one():
+        if not Relatorio().get_relatorio_produtos:
                 print("não há produtos cadastrados!")
                 input("aperte enter para sair...")
                 self.mongo.close()
