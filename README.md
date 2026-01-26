@@ -7,9 +7,9 @@ O ambiente de execução proposto é **Linux**.
 Antes de iniciar, garanta que o seu ambiente Linux possua:
 <br>
 
-- **python 3.10+**
-- **pip** (gerenciador de pacotes do Python)
-- **docker**
+- python 3.10+
+- pip (gerenciador de pacotes do Python)
+- docker
 
 ## Criando o Ambiente Virtual (venv)
 Antes de tudo, clone o projeto do GitHub 🐱:
